@@ -1,0 +1,86 @@
+body {
+    background-color: whitesmoke;
+}
+
+.avatar {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2em 0.5em;
+    text-align: center;
+}
+
+img {
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+.input-container {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.input-container label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 16px;
+    color: #fff;
+    pointer-event: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.input-container input {
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    color: black;
+}
+
+.input-container input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e74c3c;
+}
+
+.input-container input:focus~label,
+.input-container input:valid~label {
+    top: -12px;
+    font-size: 12px;
+}
+
+.list-container {
+    border: none;
+}
+
+select {
+    border: 0;
+    border-bottom: 1px solid #626262;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    color: #626262;
+    padding: 8px 0 8px 0;
+}
+
+.error {
+    background-color: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #D1E7DD;
+    color: #0F5132;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}

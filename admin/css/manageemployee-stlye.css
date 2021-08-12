@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+}
+
+.avatar {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2em 0.5em;
+    text-align: center;
+}
+
+img {
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+.input-container input {
+    border: 0;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    color: black;
+}
+
+input:focus {
+    outline: none;
+    color: grey;
+}
+
+.d-grid {
+    display: inline-grid;
+}
+
+.search-bar {
+    float: right;
+    margin-top: 20px;
+    margin-right: 12px;
+    /* padding: 8px 0 5px 0; */
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    /* line-height: 20px; */
+}
+
+
+/* a {
+    text-decoration: none;
+} */
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}
+
+.pages {
+    height: 30px;
+    width: 30px;
+    /* background-color: grey; */
+    border-radius: 3px;
+}

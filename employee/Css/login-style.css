@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #dcdde1; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+body h1 {
+    margin-bottom: 30px;
+    color: #c0392b;
+}
+
+body form {
+    width: 450px;
+    background-color: #FFFFFF;
+    padding: 20px 25px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #999999;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #c0392b;
+}
+
+form input:not(input[type="checkbox"]) {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f5f6fa;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+form input:not(input[type="checkbox"]):focus {
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+form button{
+    display: block;
+    padding: 7px 25px;
+    margin: 10px 0 0 40%;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: #27b161;
+    color: #f5f6fa;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 2px #999999;
+}
+
+form label,
+form input::placeholder {
+    font-size: 12px;
+    color: #95a5a6;
+}
+
+form .error {
+    background-color: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}

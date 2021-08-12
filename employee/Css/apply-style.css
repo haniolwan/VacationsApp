@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 60px 40px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    color: #239954;
+}
+
+form {
+    padding: 50px 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 7px #cfcfcf;
+}
+
+body input ,
+body select {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f5f6fa;
+}
+
+form .first-row {
+    display: flex;
+    justify-content:space-between;
+}
+
+form .first-row input{
+    display: flex;
+    width: 500px;
+}
+

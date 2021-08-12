@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #dcdde1; 
+}
+
+h1 {
+    text-align: center;
+    padding: 5px 0 10px 0;
+    margin-bottom: 0;
+    background-color: #007BFF;
+    color: #dcdde1;
+    box-shadow: 0 0 10px #999999;
+    z-index: 1;
+}
+
+.home-body {
+   display: flex;
+}
+
+.home-body .Employee-profile{
+    width: 260px;
+    height: 91.7vh;
+    background-color: #8cced8;
+    padding: 40px 20px;
+}
+
+.Employee-profile .Employee-info {
+    padding: 0 20px;
+}
+
+.Employee-profile .Employee-info img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.Employee-profile .Employee-info p:first-of-type {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.Employee-profile .Employee-info p:last-of-type {
+    font-size: 15px;
+}
+
+.Employee-profile .list-group{
+    margin-top: 40px;
+}
+
+.Employee-profile .list-group .list-group-item {
+    background-color: #8cced8;
+    padding: 12px 0;
+    border: none;
+}
+
+.Employee-profile .list-group .list-group-item a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    padding: 12px 20px 12px 0;
+}
+
+.Employee-profile .list-group .list-group-item a i {
+    margin: 0 20px;
+}
+
+body > div > div.Employee-profile > div.Employee-list > ul > li:nth-child(3) > ul {
+    display: none;
+    transition: all ease-in-out 1s;
+}
+
+body > div > div.Employee-profile > div.Employee-list > ul > li:nth-child(3) > ul li{
+    list-style-type: none;
+    margin-left: 24px;
+    padding: 5px 0;
+}
+
+.Employee-profile > .Employee-list > ul > li:nth-child(3) > a > i.fas.fa-chevron-down{
+    float: right;
+    margin-top: 7px;
+}
+
+.home-body .Employee-details {
+    width: 80%;
+}
